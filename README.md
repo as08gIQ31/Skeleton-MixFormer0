@@ -20,11 +20,11 @@ UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/1MwN4iNC
 
 According to the organization form of UAV-human data set file name, change the person ID(**P**), action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
 
-**get_raw_skes_data.py:** Change the **ske_path** of the raw dataset, file extension, file name interception method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame
++ **get_raw_skes_data.py:** Change the **ske_path** of the raw dataset, file extension, file name interception method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame
 
-**get_raw_denoisded_data.py:** set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
++ **get_raw_denoisded_data.py:** set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
 
-**seq_transformation.py:** Classify the training and testing according to the **https://github.com/SUTDCV/UAV-Human** (here is the reference he gave the first scheme).
++ **seq_transformation.py:** Classify the training and testing according to the **https://github.com/SUTDCV/UAV-Human** (here is the reference he gave the first scheme).
 ~~~
 train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 
              16, 17, 18, 19, 20, 21, 25, 26, 27, 28, 29, 
