@@ -37,4 +37,4 @@ test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92,
             93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
 ~~~
 # Conclude
-**After making these changes, running **get_raw_skes_data.py**, **get_raw_denoisded_data.py**, and **seq_transformation.py**, In addition, the data is being cleaned up and stay tuned.**
+After making these changes, running **get_raw_skes_data.py**, **get_raw_denoisded_data.py**, and **seq_transformation.py**, In addition, the data is being cleaned up and stay tuned.**
