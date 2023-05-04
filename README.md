@@ -7,8 +7,8 @@ CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN
 UVA Cross-Subject-v1 Data preprocessed: https://drive.google.com/file/d/1PzxJohTxu3MbPD9Y1TcxKLJXtfDFNgKp/view?usp=share_link  
 UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/1MwN4iNChfAza8cgJ_T2JCRm2P6rDm6ni/view?usp=share_link
 
-### Changes to statistics  
-#### Annotations  
+# Changes to statistics  
+### Annotations  
 
 * FileName: **P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
 
@@ -17,7 +17,7 @@ UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/1MwN4iNC
 + **A**000: (Action) action labels of current sample  
 
 + **R**0: (Replicate) replicate capturing  
-### Changes to code 
+# Changes to code 
 According to the organization form of UAV-human data set file name, change the person ID(**P**), action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
 
 + **get_raw_skes_data.py:** Change the **ske_path** of the raw dataset, file extension, file name interception method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame
