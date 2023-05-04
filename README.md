@@ -16,7 +16,7 @@ UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/1MwN4iNC
 
 + **A**000: (Action) action labels of current sample  
 
-+ **R**0: (Replicate) replicate capturing  
++ **R**0: (Replicate) replicate capturing   
 According to the organization form of UAV-human data set file name, change the person ID(**P**), action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
 
 # Changes to code 
