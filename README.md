@@ -25,3 +25,14 @@ Change the ske_path of the raw dataset, file extension, file name interception m
 set noise_len_thres = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
 
 Classify the training and testing according to the https://github.com/SUTDCV/UAV-Human amend the 197-205 lines of code is as follows (here is the reference he gave the first scheme).
+~~~
+train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 
+             16, 17, 18, 19, 20, 21, 25, 26, 27, 28, 29, 
+             30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 
+             44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 
+             59, 61, 62, 63, 64, 65, 67, 68, 69, 70, 71, 73, 76, 77,
+             78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 98, 100, 
+             102, 103, 105, 106, 110, 111, 112, 114, 115, 116, 117, 118]
+test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92, 
+            93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
+~~~
