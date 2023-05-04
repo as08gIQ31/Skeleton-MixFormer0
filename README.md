@@ -18,4 +18,4 @@ FileName:**P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt
 
 **R**0: (Replicate) replicate capturing  
 
-According to the organization form of UAV-human data set file name, change the person ID(**P**), the number of passes performed by the action (**R**), the classification of the action (**A**), and the camera ID(**C**) in the static data. Due to different collection methods of data sets, the default uav data is collected by cameras, so the camera ids corresponding to all samples are set to 0.
+According to the organization form of UAV-human data set file name, change the person ID(**P**), action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
