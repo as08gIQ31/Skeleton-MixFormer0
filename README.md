@@ -10,9 +10,9 @@ UVA Cross-Subject-v2 Data preprocessed: https://drive.google.com/file/d/1MwN4iNC
 ### Changes to statistics  
 + Annotations  
 
- FileName:**P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
+*FileName:**P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
 
-**P**000: (PersonID) unique person ID for the main subject in current video
+-**P**000: (PersonID) unique person ID for the main subject in current video
 
 **A**000: (Action) action labels of current sample  
 
