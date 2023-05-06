@@ -86,23 +86,24 @@ Put downloaded data into the following directory structure:
 ##### Changes to statistics  
 ##### Annotations  
 
-* FileName: **P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
+1. FileName: **P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
 
-- **P**000: (**P**ersonID) unique person ID for the main subject in current video
+2. **P**000: (**P**ersonID) unique person ID for the main subject in current video
 
-+ **A**000: (**A**ction) action labels of current sample  
+3. **A**000: (**A**ction) action labels of current sample  
 
-+ **R**0: (**R**eplicate) replicate capturing  
+4. **R**0: (**R**eplicate) replicate capturing  
 
 According to the organization form of UAV-human data set file name, change the person ID(**P**), action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
 
 ##### Changes to code 
 
-+ ```get_raw_skes_data.py``` Change the **ske_path** of the raw dataset, file extension, file name truncion method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame.
+1. ```get_raw_skes_data.py``` Change the **ske_path** of the raw dataset, file extension, file name truncion method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame.
 
-+ ```get_raw_denoisded_data.py``` set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
+2. ```get_raw_denoisded_data.py``` set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
 
-+ ```seq_transformation.py``` Classify the training and testing according to the **https://github.com/SUTDCV/UAV-Human** (here is the reference he gave the first scheme).
+3. ```seq_transformation.py``` Classify the training and testing according to the **https://github.com/SUTDCV/UAV-Human** (here is the reference he gave the first scheme).
 
+Request detailed pre-processing steps or preprocessed dataset [here](https://github.com/back330/UVA-Human-Skeleton-Preprocessing)
 # Contact
 For any questions, feel free to contact: ly330@stu.xidian.edu.cn
