@@ -23,8 +23,8 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 
 **There are 4 datasets to download:**
 + NTU RGB+D 60 Skeleton
-- NTU RGB+D 120 Skeleton
-* NW-UCLA
++ NTU RGB+D 120 Skeleton
++ NW-UCLA
 + U-Human
 
 ## UAV-Human-Skeleton-Preprocessing
