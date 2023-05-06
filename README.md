@@ -35,7 +35,7 @@ This repo is the official implementation for Skeleton-MixFormer: <u>Multivariate
     ii. ```nturgbd_skeletons_s018_to_s032.zip``` (NTU RGB+D 120)  
     iii. Extract above files to ```./data/nturgbd_raw```  
 
-**U-Human**
+**UAV-Human**
 
 1. Download dataset from here: https://sutdcv.github.io/uav-human-web/
 2. Move ```Skeleton``` to ```./data/UAV-Human```
