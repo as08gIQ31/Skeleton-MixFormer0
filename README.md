@@ -121,7 +121,7 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
 ~~~
 
 # Training & Testing
-#### Training
+### Training
 + Change the config file depending on what you want.
 ~~~
     # Example: training SKMIXF on NTU RGB+D cross subject with GPU 0
@@ -143,7 +143,7 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
     python main.py --config config/uav/default.yaml --work-dir work_dir/uav/skmixf_xxx --device 0
 ~~~
 
-#### Testing
+### Testing
 
 + To test the trained models saved in <work_dir>, run the following command:  
 
