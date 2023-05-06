@@ -85,7 +85,7 @@ Put downloaded data into the following directory structure:
 ### UAV Data Processing
 
 #### Changes to statistics  
-**Annotations**  
++ **Annotations**  
 
 1. FileName: **P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
 
