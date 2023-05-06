@@ -52,8 +52,8 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 #### UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
-UAV 3D Human Dataset address: **https://github.com/SUTDCV/UAV-Human**  
-CTR-GCN Source code address: **https://github.com/Uason-Chen/CTR-GCN**  
+UAV 3D Human Dataset address: https://github.com/SUTDCV/UAV-Human  
+CTR-GCN Source code address: https://github.com/Uason-Chen/CTR-GCN  
 UAV Cross-Subject-v1 Data preprocessed: [here](https://drive.google.com/file/d/1PzxJohTxu3MbPD9Y1TcxKLJXtfDFNgKp/view?usp=share_link)  
 UAV Cross-Subject-v2 Data preprocessed: [here](https://drive.google.com/file/d/1MwN4iNChfAza8cgJ_T2JCRm2P6rDm6ni/view?usp=share_link)
 
