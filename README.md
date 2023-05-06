@@ -138,7 +138,7 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
 ~~~
     python main.py --config config/ucla/default.yaml --work-dir work_dir/ucla/ctrgcn_xxx --device 0
 ~~~
-+ To train model on U-Human with bone or motion modalities, you need to modify data_path in train_feeder_args and test_feeder_args to "bone" or "motion" or "bone motion", and run
++ To train model on UAV-Human with bone or motion modalities, you need to modify data_path in train_feeder_args and test_feeder_args to "bone" or "motion" or "bone motion", and run
 ~~~
     python main.py --config config/uav/default.yaml --work-dir work_dir/uav/ctrgcn_xxx --device 0
 ~~~
