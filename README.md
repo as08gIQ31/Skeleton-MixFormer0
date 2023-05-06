@@ -28,12 +28,15 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 + U-Human
 
 **NTU RGB+D 60 and 120**
-Request dataset [here](https://rose1.ntu.edu.sg/dataset/actionRecognition)
+
+1. Request dataset [here](https://rose1.ntu.edu.sg/dataset/actionRecognition)
 **NW-UCLA**
-Download dataset from [here](https://drive.google.com/file/d/1wWhgqMEQlrCKcJHu6W72Zk_iloS7_JJw/view?usp=share_link)
+
+1. Download dataset from [here](https://drive.google.com/file/d/1wWhgqMEQlrCKcJHu6W72Zk_iloS7_JJw/view?usp=share_link)
 
 **U-Human**
-Download dataset from [here](https://sutdcv.github.io/uav-human-web/)
+
+1. Download dataset from [here](https://sutdcv.github.io/uav-human-web/)
 
 ### UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
