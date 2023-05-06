@@ -98,11 +98,11 @@ According to the organization form of UAV-human data set file name, change the p
 
 ##### Changes to code 
 
-+ ```**get_raw_skes_data.py:**``` Change the **ske_path** of the raw dataset, file extension, file name truncion method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame.
++ ```get_raw_skes_data.py``` Change the **ske_path** of the raw dataset, file extension, file name truncion method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame.
 
-+ ```**get_raw_denoisded_data.py:**``` set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
++ ```get_raw_denoisded_data.py``` set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
 
-+ ```**seq_transformation.py:**``` Classify the training and testing according to the **https://github.com/SUTDCV/UAV-Human** (here is the reference he gave the first scheme).
++ ```seq_transformation.py``` Classify the training and testing according to the **https://github.com/SUTDCV/UAV-Human** (here is the reference he gave the first scheme).
 
 # Contact
 For any questions, feel free to contact: ly330@stu.xidian.edu.cn
