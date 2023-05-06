@@ -121,6 +121,7 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
 ~~~
 
 # Training & Testing
+#### Training
 + Change the config file depending on what you want.
 ~~~
 # Example: training SKMIXF on NTU RGB+D cross subject with GPU 0
@@ -133,9 +134,27 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --model model.
 # Example: training SKMIXF on NTU RGB+D 120 cross subject under bone modality
 python main.py --config config/nturgbd120-cross-subject/default.yaml --train_feeder_args bone=True --test_feeder_args bone=True --work-dir work_dir/ntu120/csub/skmixf_bone --device 0
 ~~~
++ To train model on NW-UCLA with bone or motion modalities, you need to modify data_path in train_feeder_args and test_feeder_args to "bone" or "motion" or "bone motion", and run
+~~~
+python main.py --config config/ucla/default.yaml --work-dir work_dir/ucla/ctrgcn_xxx --device 0
+~~~
++ To train model on U-Human with bone or motion modalities, you need to modify data_path in train_feeder_args and test_feeder_args to "bone" or "motion" or "bone motion", and run
++ ~~~
+python main.py --config config/uav/default.yaml --work-dir work_dir/uav/ctrgcn_xxx --device 0
+~~~
 ## Acknowledgements
 This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch).
 
+#### Testing
++ To test the trained models saved in <work_dir>, run the following command:
+~~~
+python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
+~~~
++ To ensemble the results of different modalities, run
+~~~
+# Example: ensemble four modalities of SkMIXF on NTU RGB+D cross subject
+python ensemble.py --dataset ntu/xsub --joint-dir work_dir/ntu/csub/skmixf --bone-dir work_dir/ntu/csub/skmixf_bone --joint-motion-dir work_dir/ntu120/csub/skmixf_motion --bone-motion-dir work_dir/ntu/csub/skmixf_bone_motion
+~~~
 Thanks to the original authors for their work!  
 # Contact
 For any questions, feel free to contact: ly330@stu.xidian.edu.cn
