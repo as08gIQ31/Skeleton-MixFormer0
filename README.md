@@ -4,9 +4,16 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 # Architecture of SK-MixF
 
 # Prerequisites
+
 + Python >= 3.6
+
 + PyTorch >= 1.1.0
+
 + PyYAML, tqdm, tensorboardX
+
+# Data Preparation
+
+### Download datasets.
 
 ## UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
