@@ -35,15 +35,17 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
     ii. ```nturgbd_skeletons_s018_to_s032.zip``` (NTU RGB+D 120)  
     iii. Extract above files to ```./data/nturgbd_raw```  
 
-**NW-UCLA**
-
-1. Download dataset from here: https://drive.google.com/file/d/1wWhgqMEQlrCKcJHu6W72Zk_iloS7_JJw/view?usp=share_link
-2. Move ```all_sqe``` to ```./data/NW-UCLA```
-
 **U-Human**
 
-1. Download dataset from [here](https://sutdcv.github.io/uav-human-web/)
+1. Download dataset from here: https://sutdcv.github.io/uav-human-web/
 2. Move ```Skeleton``` to ```./data/UAV-Human```
+
+**NW-UCLA**
+
+1. Download dataset from [here](https://drive.google.com/file/d/1wWhgqMEQlrCKcJHu6W72Zk_iloS7_JJw/view?usp=share_link)
+2. Move ```all_sqe``` to ```./data/NW-UCLA```
+
+
 
 ### Data Processing
 
