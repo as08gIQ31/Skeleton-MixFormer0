@@ -142,8 +142,6 @@ python main.py --config config/ucla/default.yaml --work-dir work_dir/ucla/ctrgcn
 + ~~~
 python main.py --config config/uav/default.yaml --work-dir work_dir/uav/ctrgcn_xxx --device 0
 ~~~
-## Acknowledgements
-This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch).
 
 #### Testing
 
@@ -157,6 +155,10 @@ python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase tes
 python ensemble.py --dataset ntu/xsub --joint-dir work_dir/ntu/csub/skmixf --bone-dir work_dir/ntu/csub/skmixf_bone --joint-motion-dir work_dir/ntu120/csub/skmixf_motion --bone-motion-dir work_dir/ntu/csub/skmixf_bone_motion
 ~~~
 
+## Acknowledgements
+This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch).
+
 Thanks to the original authors for their work!  
+
 # Contact
 For any questions, feel free to contact: ly330@stu.xidian.edu.cn
