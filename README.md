@@ -129,12 +129,12 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
     # Example: training provided baseline on NTU RGB+D cross subject
     python main.py --config config/nturgbd-cross-subject/default.yaml --model model.baseline.Model--work-dir work_dir/ntu/csub/baseline --     device 0
 ~~~
-+ To train model on NTU RGB+D 60/120 with bone or motion modalities, setting bone or vel arguments in the config file default.yaml or in the command line.
++ To train model on NTU RGB+D 60/120 with bone or motion modalities, setting ```bone``` or ```vel``` arguments in the config file ```default.yaml``` or in the command line.
 ~~~
     # Example: training SKMIXF on NTU RGB+D 120 cross subject under bone modality
     python main.py --config config/nturgbd120-cross-subject/default.yaml --train_feeder_args bone=True --test_feeder_args bone=True --work-     dir work_dir/ntu120/csub/skmixf_bone --device 0
 ~~~
-+ To train model on NW-UCLA with bone or motion modalities, you need to modify data_path in train_feeder_args and test_feeder_args to "bone" or "motion" or "bone motion", and run
++ To train model on NW-UCLA with bone or motion modalities, you need to modify ```data_path``` in ```train_feeder_args``` and ```test_feeder_args``` to "bone" or "motion" or "bone motion", and run
 ~~~
     python main.py --config config/ucla/default.yaml --work-dir work_dir/ucla/skmixf_xxx --device 0
 ~~~
