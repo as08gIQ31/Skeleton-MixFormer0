@@ -111,7 +111,7 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
 
 + Generate UAV-Human dataset:
 ~~~
- cd ./data/Uav/Skeleton
+ cd ./data/uav/Skeleton
  # Get skeleton of each performer
  python get_raw_skes_data.py
  # Remove the bad skeleton 
