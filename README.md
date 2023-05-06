@@ -134,7 +134,7 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --model model.
 python main.py --config config/nturgbd120-cross-subject/default.yaml --train_feeder_args bone=True --test_feeder_args bone=True --work-dir work_dir/ntu120/csub/skmixf_bone --device 0
 ~~~
 ## Acknowledgements
-This repo is based on CTR-GCN. The data processing is borrowed from SGN and HCN.
+This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch).
 
 Thanks to the original authors for their work!  
 # Contact
