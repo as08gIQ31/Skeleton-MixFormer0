@@ -123,14 +123,14 @@ Request detailed pre-processing steps or preprocessed dataset [here](https://git
 # Training & Testing
 + Change the config file depending on what you want.
 ~~~
-# Example: training CTRGCN on NTU RGB+D cross subject with GPU 0
+# Example: training SkMIXF on NTU RGB+D cross subject with GPU 0
 python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir work_dir/ntu120/csub/skmixf --device 0
 # Example: training provided baseline on NTU RGB+D cross subject
 python main.py --config config/nturgbd-cross-subject/default.yaml --model model.baseline.Model--work-dir work_dir/ntu/csub/baseline --device 0
 ~~~
 + To train model on NTU RGB+D 60/120 with bone or motion modalities, setting bone or vel arguments in the config file default.yaml or in the command line.
 ~~~
-# Example: training CTRGCN on NTU RGB+D 120 cross subject under bone modality
+# Example: training SkMIXF on NTU RGB+D 120 cross subject under bone modality
 python main.py --config config/nturgbd120-cross-subject/default.yaml --train_feeder_args bone=True --test_feeder_args bone=True --work-dir work_dir/ntu120/csub/skmixf_bone --device 0
 ~~~
 
