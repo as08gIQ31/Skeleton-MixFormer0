@@ -29,7 +29,7 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 
 **NTU RGB+D 60 and 120**
 
-1. Request dataset: \https://rose1.ntu.edu.sg/dataset/actionRecognition\
+1. Request dataset: https://rose1.ntu.edu.sg/dataset/actionRecognition
 2. Download the skeleton-only datasets:  
     i. nturgbd_skeletons_s001_to_s017.zip (NTU RGB+D 60)
     ii. nturgbd_skeletons_s018_to_s032.zip (NTU RGB+D 120)
