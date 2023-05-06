@@ -47,7 +47,7 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 
 
 
-### Data Processing
+### NTU Data Processing
 
 #### Directory Structure
 
@@ -81,10 +81,13 @@ Put downloaded data into the following directory structure:
  # Transform the skeleton to the center of the first frame
  python seq_transformation.py
 ~~~
+
+### UAV Data Processing
+
 + Generate UAV-Human dataset:
 
-##### Changes to statistics  
-##### Annotations  
++ Changes to statistics  
+**Annotations**  
 
 1. FileName: **P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
 
@@ -96,7 +99,7 @@ Put downloaded data into the following directory structure:
 
 According to the organization form of UAV-human data set file name, change the person ID(**P**), the number of action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
 
-##### Changes to code 
++ Changes to code 
 
 1. ```get_raw_skes_data.py``` Change the **ske_path** of the raw dataset, file extension, file name truncion method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame.
 
@@ -104,6 +107,6 @@ According to the organization form of UAV-human data set file name, change the p
 
 3. ```seq_transformation.py``` Classify the training and testing according to the https://github.com/SUTDCV/UAV-Human. 
 
-Request detailed pre-processing steps or preprocessed dataset [here](https://github.com/back330/UVA-Human-Skeleton-Preprocessing)
+Request detailed pre-processing steps or preprocessed dataset [here](https://github.com/back330/UVA-Human-Skeleton-Preprocessing)  
 # Contact
 For any questions, feel free to contact: ly330@stu.xidian.edu.cn
