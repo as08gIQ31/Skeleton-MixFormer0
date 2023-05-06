@@ -49,6 +49,26 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 
 ### Data Processing
 
+#### Directory Structure
+
+Put downloaded data into the following directory structure:
+~~~
+- data/
+  - UAV-Human/
+    - Skeleton
+      ... # raw data of UAV-Human
+  - NW-UCLA/
+    - all_sqe
+      ... # raw data of NW-UCLA
+  - ntu/
+  - ntu120/
+  - nturgbd_raw/
+    - nturgb+d_skeletons/     # from `nturgbd_skeletons_s001_to_s017.zip`
+      ...
+    - nturgb+d_skeletons120/  # from `nturgbd_skeletons_s018_to_s032.zip`
+      ...
+~~~
+
 #### UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
