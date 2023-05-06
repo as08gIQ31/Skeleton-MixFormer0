@@ -3,6 +3,12 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 
 # Architecture of SK-MixF
 
+
+
+
+
+
+
 # Prerequisites
 
 + Python >= 3.6
@@ -14,6 +20,12 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 # Data Preparation
 
 ### Download datasets.
+
+**There are 4 datasets to download:**
++ NTU RGB+D 60 Skeleton
+- NTU RGB+D 120 Skeleton
+* NW-UCLA
++ U-Human
 
 ## UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
