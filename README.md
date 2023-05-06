@@ -146,10 +146,13 @@ python main.py --config config/uav/default.yaml --work-dir work_dir/uav/ctrgcn_x
 #### Testing
 
 + To test the trained models saved in <work_dir>, run the following command:  
+
 ~~~
 python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
 ~~~
+
 + To ensemble the results of different modalities, run  
+
 ~~~
 # Example: ensemble four modalities of SkMIXF on NTU RGB+D cross subject
 python ensemble.py --dataset ntu/xsub --joint-dir work_dir/ntu/csub/skmixf --bone-dir work_dir/ntu/csub/skmixf_bone --joint-motion-dir work_dir/ntu120/csub/skmixf_motion --bone-motion-dir work_dir/ntu/csub/skmixf_bone_motion
