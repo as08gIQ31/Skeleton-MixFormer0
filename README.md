@@ -19,7 +19,7 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 
 # Data Preparation
 
-### Download datasets.
+### Download datasets
 
 **There are 4 datasets to download:**
 + NTU RGB+D 60 Skeleton
@@ -38,12 +38,16 @@ This repo is the official implementation for Skeleton-MixFormer: Multivariate To
 **NW-UCLA**
 
 1. Download dataset from here: https://drive.google.com/file/d/1wWhgqMEQlrCKcJHu6W72Zk_iloS7_JJw/view?usp=share_link
+2. Move ```all_sqe``` to ```./data/NW-UCLA```
 
 **U-Human**
 
 1. Download dataset from [here](https://sutdcv.github.io/uav-human-web/)
+2. Move ```Skeleton``` to ```./data/UAV-Human```
 
-### UAV-Human-Skeleton-Preprocessing
+### Data Processing
+
+#### UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
 UAV 3D Human Dataset address: **https://github.com/SUTDCV/UAV-Human**  
@@ -51,8 +55,8 @@ CTR-GCN Source code address: **https://github.com/Uason-Chen/CTR-GCN**
 UAV Cross-Subject-v1 Data preprocessed: **https://drive.google.com/file/d/1PzxJohTxu3MbPD9Y1TcxKLJXtfDFNgKp/view?usp=share_link**  
 UAV Cross-Subject-v2 Data preprocessed: **https://drive.google.com/file/d/1MwN4iNChfAza8cgJ_T2JCRm2P6rDm6ni/view?usp=share_link**
 
-### Changes to statistics  
-### Annotations  
+#### Changes to statistics  
+#### Annotations  
 
 * FileName: **P**000S00G10B10H10UC022000LC021000**A**000**R**0_08241716.txt  
 
@@ -64,7 +68,7 @@ UAV Cross-Subject-v2 Data preprocessed: **https://drive.google.com/file/d/1MwN4i
 
 According to the organization form of UAV-human data set file name, change the person ID(**P**), action repetition (**R**), action classification (**A**) and camera ID(**C**) in static data. Due to different collection methods of data sets, the default uav data is collected by a single camera, so the camera ids corresponding to all samples are set to 0.
 
-### Changes to code 
+#### Changes to code 
 
 + **get_raw_skes_data.py:** Change the **ske_path** of the raw dataset, file extension, file name truncion method, and the size of the generated array used to store the coordinate information of the skeleton node in the current frame.
 
@@ -82,5 +86,5 @@ train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15,
 test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92, 
             93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
 ~~~
-### Conclude
+#### Conclude
 After making these changes, running **get_raw_skes_data.py**, **get_raw_denoisded_data.py**, and **seq_transformation.py**, In addition, the data is being cleaned up and stay tuned.**
