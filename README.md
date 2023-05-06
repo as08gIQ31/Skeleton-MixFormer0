@@ -69,6 +69,20 @@ Put downloaded data into the following directory structure:
       ...
 ~~~
 
+#### Generating Data
+
++ Generate NTU RGB+D 60 or NTU RGB+D 120 dataset:
+~~~
+ cd ./data/ntu # or cd ./data/ntu120
+ # Get skeleton of each performer
+ python get_raw_skes_data.py
+ # Remove the bad skeleton 
+ python get_raw_denoised_data.py
+ # Transform the skeleton to the center of the first frame
+ python seq_transformation.py
+~~~
++ Generate UAV-Human dataset:
+
 #### UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
@@ -108,5 +122,5 @@ train_ids = [0, 2, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15,
 test_ids = [1, 3, 4, 9, 22, 23, 24, 31, 41, 58, 60, 66, 72, 74, 75, 91, 92, 
             93, 94, 95, 96, 97, 99, 101, 104, 107, 108, 109, 113]
 ~~~
-#### Conclude
-After making these changes, running **get_raw_skes_data.py**, **get_raw_denoisded_data.py**, and **seq_transformation.py**, In addition, the data is being cleaned up and stay tuned.**
+# Contact
+For any questions, feel free to contact: ly330@stu.xidian.edu.cn
