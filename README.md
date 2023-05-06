@@ -133,6 +133,9 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --model model.
 # Example: training SKMIXF on NTU RGB+D 120 cross subject under bone modality
 python main.py --config config/nturgbd120-cross-subject/default.yaml --train_feeder_args bone=True --test_feeder_args bone=True --work-dir work_dir/ntu120/csub/skmixf_bone --device 0
 ~~~
+## Acknowledgements
+This repo is based on CTR-GCN. The data processing is borrowed from SGN and HCN.
 
+Thanks to the original authors for their work!  
 # Contact
 For any questions, feel free to contact: ly330@stu.xidian.edu.cn
