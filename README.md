@@ -1,4 +1,7 @@
 # Skeleton-MixFormer
+This repo is the official implementation for Skeleton-MixFormer: Multivariate Topology Representation for Skeleton-based Action Recognition
+
+#Architecture of SK-MixF
 ## UAV-Human-Skeleton-Preprocessing
 The processing of the uva dataset is improved from the preprocessing method of the NTU RGB+D dataset in the CTR-GCN source code.  
 
