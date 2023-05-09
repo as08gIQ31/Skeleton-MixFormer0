@@ -1,4 +1,4 @@
-# Skeleton-MixFormer(本项目的代码正在清理并即将公开)
+# Skeleton-MixFormer(The code for the project is being cleaned up and will soon be made public)
 This repo is the official implementation for Skeleton-MixFormer: <u>Multivariate Topology Representation for Skeleton-based Action Recognition<u>
 
 ## Architecture of SK-MixF
@@ -164,4 +164,4 @@ This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data
 Thanks to the original authors for their work!  
 
 # Contact
-For any questions, feel free to contact: ly330@stu.xidian.edu.cn
+
