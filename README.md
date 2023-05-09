@@ -104,8 +104,7 @@ According to the organization form of UAV-human data set file name, change the p
 2. ```get_raw_denoisded_data.py``` set **noise_len_thres** = 0, Changing action label truncion way and all the numbers in the code from 25 to 17, 75 to 51, and 150 to 102. 
 
 3. ```seq_transformation.py``` Classify the training and testing according to the https://github.com/SUTDCV/UAV-Human. 
-
-Request detailed pre-processing steps or preprocessed dataset [here](https://github.com/back330/UVA-Human-Skeleton-Preprocessing)  
+ 
 
 #### Generate Data:
 
