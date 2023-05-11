@@ -1,4 +1,4 @@
-# Skeleton-MixFormer(The code for the project is being cleaned up and will soon be made public)
+# Skeleton-MixFormer
 This repo is the official implementation for Skeleton-MixFormer: <u>Multivariate Topology Representation for Skeleton-based Action Recognition<u>
 
 ## Architecture of SK-MixF
