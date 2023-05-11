@@ -111,6 +111,8 @@ According to the organization form of UAV-human data set file name, change the p
 + Generate UAV-Human dataset:
 ~~~
  cd ./data/uav/Skeleton
+ # Updata statistics.py
+ python updata_statistics.py
  # Get skeleton of each performer
  python get_raw_skes_data.py
  # Remove the bad skeleton 
