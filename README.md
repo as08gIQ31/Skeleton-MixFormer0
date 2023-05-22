@@ -160,10 +160,12 @@ The pre-processed UAV data can be referred [here](https://drive.google.com/drive
     python ensemble.py --dataset ntu/xsub --joint-dir work_dir/ntu/csub/skmixf --bone-dir work_dir/ntu/csub/skmixf_bone --joint-motion-dir     work_dir/ntu120/csub/skmixf_motion --bone-motion-dir work_dir/ntu/csub/skmixf_bone_motion
 ~~~
 
+### Pre_Trained_Model
+pre-trained model refer to the https://drive.google.com/file/d/15Ahneq5_IgurficrYb3PiiLeEFyS8lBQ/view?usp=share_link
+    
 ## Acknowledgements
 This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data processing is borrowed from [SGN](https://github.com/microsoft/SGN) and [HCN](https://github.com/huguyuehuhu/HCN-pytorch).
 
 Thanks to the original authors for their work!  
 
-# Contact
 
